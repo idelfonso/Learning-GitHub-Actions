@@ -8,7 +8,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Running Single Command in Job1
-      - run: echo "Hi, this is my first GitHub workflow"
+        run: echo "Hi, this is my first GitHub workflow"
       - name: Checking OS Release for GitHub Hosted Runner
-      - run: cat /etc/os-release
+        run: cat /etc/os-release
       
